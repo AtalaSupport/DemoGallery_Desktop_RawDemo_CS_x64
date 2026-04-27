@@ -5,6 +5,9 @@ Demonstrates using our RawDecoder to view and scale RAW format images, as well a
 
 In addition, our RawDecoder allows for control over loading policy, interpolation, white balance and Image metrics. This demo provides a practical working example of these settings.
 
+This is the C# version. We also have a [VB.NET version](https://github.com/AtalaSupport/DemoGallery_Desktop_RawDemo_VB_x64) available.
+
+
 ## Raw Support / Libraries
 Atalasoft's RawDecoder used to use DCRaw, and still includes it for backward compatibility. However that library has not been updated in some time. We've switched our default to LibRaw (currently 0.22.0). However we also offer the ability to configure for external LibRaw so you can "bring your own" should you need a newer version than we include.
 
